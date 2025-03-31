@@ -1,3 +1,3 @@
 FROM alpine
-COPY . /srv
+COPY . .
 CMD ["sleep", "infinity"]
