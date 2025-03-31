@@ -1,3 +1,4 @@
-FROM scratch
+FROM busybox
+WORKDIR /srv
 COPY . .
-CMD true
+CMD ["sleep", "infinity"]
