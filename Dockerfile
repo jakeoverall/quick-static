@@ -1,2 +1,3 @@
-FROM caddy:alpine
-COPY . /usr/share/caddy
+FROM alpine
+COPY . /srv
+CMD ["sleep", "infinity"]
