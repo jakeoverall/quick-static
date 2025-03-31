@@ -1,5 +1,2 @@
-FROM scratch
-
-COPY . .
-
-# No entrypoint or command — this is just a static files container
+FROM caddy:alpine
+COPY . /usr/share/caddy
