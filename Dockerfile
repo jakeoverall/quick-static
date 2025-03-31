@@ -1,4 +1,3 @@
-FROM alpine
-WORKDIR /srv
+FROM scratch
 COPY . .
-CMD ["sleep", "infinity"]
+CMD true
